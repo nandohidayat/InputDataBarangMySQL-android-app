@@ -1,6 +1,4 @@
-package com.nandohidayat.app.firebaseku;
-
-import com.google.firebase.database.IgnoreExtraProperties;
+package com.nandohidayat.app.inputdatabarangmysql;
 
 public class Barang {
     private String Kdbrg;

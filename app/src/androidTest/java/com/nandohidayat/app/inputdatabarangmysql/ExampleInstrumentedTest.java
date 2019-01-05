@@ -1,4 +1,4 @@
-package com.nandohidayat.app.firebaseku;
+package com.nandohidayat.app.inputdatabarangmysql;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.nandohidayat.app.firebaseku", appContext.getPackageName());
+        assertEquals("com.nandohidayat.app.inputdatabarangmysql", appContext.getPackageName());
     }
 }

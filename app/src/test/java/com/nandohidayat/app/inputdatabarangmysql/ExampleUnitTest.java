@@ -1,4 +1,4 @@
-package com.nandohidayat.app.firebaseku;
+package com.nandohidayat.app.inputdatabarangmysql;
 
 import org.junit.Test;
 

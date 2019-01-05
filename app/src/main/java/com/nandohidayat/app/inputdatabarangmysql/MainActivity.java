@@ -1,4 +1,4 @@
-package com.nandohidayat.app.firebaseku;
+package com.nandohidayat.app.inputdatabarangmysql;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -21,7 +21,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String BARANG = "com.nandohidayat.app.firebaseku.brg";
+    public static final String BARANG = "com.nandohidayat.app.inputdatabarangmysql.brg";
 
     ListView listView;
 
