@@ -147,6 +147,10 @@ public class AddActivity extends AppCompatActivity {
                                         Toast.makeText(AddActivity.this, "Failed to Update", Toast.LENGTH_LONG);
                                     }
                                 }
+                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                                intent.putExtra(MainActivity.BARANG, "");
+
+                                startActivity(intent);
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
@@ -157,11 +161,6 @@ public class AddActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-        intent.putExtra(MainActivity.BARANG, "");
-
-        startActivity(intent);
     }
 
     private void delBarang() {
@@ -200,6 +199,10 @@ public class AddActivity extends AppCompatActivity {
                                 } else {
                                     Toast.makeText(AddActivity.this, "Delete failed", Toast.LENGTH_LONG);
                                 }
+                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                                intent.putExtra(MainActivity.BARANG, "");
+
+                                startActivity(intent);
                             } catch (IOException e) {
                                 e.printStackTrace();
                             }
@@ -210,10 +213,5 @@ public class AddActivity extends AppCompatActivity {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-        intent.putExtra(MainActivity.BARANG, "");
-
-        startActivity(intent);
     }
 }
