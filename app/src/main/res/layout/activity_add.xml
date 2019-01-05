@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Barang:"/>
+
+        <EditText
+            android:id="@+id/kdbrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kode Barang" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang:"/>
+
+        <EditText
+            android:id="@+id/nmbrg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Barang" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satuan:"/>
+
+        <EditText
+            android:id="@+id/satuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Satuan" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga Beli:"/>
+
+        <EditText
+            android:id="@+id/hrgbeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Harga Beli"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga Jual:"/>
+
+        <EditText
+            android:id="@+id/hrgjual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Harga Jual"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stok:"/>
+
+        <EditText
+            android:id="@+id/stok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Stok"
+            android:inputType="number"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stok Min:"/>
+
+        <EditText
+            android:id="@+id/stokmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Stok Min"
+            android:inputType="number"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnadd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/btndel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:layout_weight="1"
+                android:backgroundTint="#ffff4444"
+                android:textColor="#ffffffff"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
